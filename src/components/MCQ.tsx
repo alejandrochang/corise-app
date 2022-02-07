@@ -27,7 +27,6 @@ function MCQ(comp: Comp) {
     setSelectedButton(val);
   };
 
-  console.log('?', FeedbackOnIncorrect, { FeedbackOnIncorrect  });
   // const shuffle = (array: any[]) => array.sort(() => Math.random() - 0.5);
   // shuffle options - ideally this should be coming from the config structure - to avoid re-render on change
   const options = [CorrectOption, ...IncorrectOptions];
