@@ -34,8 +34,12 @@ const formatElements = (component: any) => {
 function BlockParser(data: Config) {
   return (
     <div className="block-parser">
-      {data.config.map((component) => {
-        return <>{formatElements(component)}</>;
+      {data.config.map((component, i) => {
+        return (
+          <div key={component.Type}>
+            <>{formatElements(component)}</>
+          </div>
+        );
       })}
     </div>
   );

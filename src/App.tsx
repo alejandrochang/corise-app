@@ -7,12 +7,12 @@ function App() {
     Type: String;
     Object: any;
   }[] = [
-    {
-      Type: "Markdown",
-      Object: {
-        Text: "## Heading 2\n This is a markdown text with some `highligthed text`.  \n  **This is Bold**,  \n  *This is Italics*",
-      },
-    },
+    // {
+    //   Type: "Markdown",
+    //   Object: {
+    //     Text: "## Heading 2\n This is a markdown text with some `highligthed text`.  \n  **This is Bold**,  \n  *This is Italics*",
+    //   },
+    // },
     {
       Type: "Markdown",
       Object: {
@@ -39,7 +39,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1 className="title">Interactive Articles</h1>
+      <h1 className="title">Interactive Articles</h1>\
       <BlockParser config={config} />
     </div>
   );

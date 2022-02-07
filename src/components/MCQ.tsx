@@ -36,7 +36,7 @@ function MCQ(comp: Comp) {
       <p>{Question}</p>
       {options.map((option) => {
         return (
-          <>
+          <div key={option}>
             <input
               type="radio"
               id="opt"
@@ -47,7 +47,7 @@ function MCQ(comp: Comp) {
             />
             <label htmlFor="opt">{option}</label>
             <br />
-          </>
+          </div>
         );
       })}
       {selectedButton && CorrectOption !== selectedButton && (
