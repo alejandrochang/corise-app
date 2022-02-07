@@ -25,3 +25,5 @@ Topics of Discussion
 - Ideas of continuing extending API
 - Client Side Monitoring/Metrics  (PV, UV, referrer_url, SEO, Accessibility)
 - Block Decisions
+
+![image](https://user-images.githubusercontent.com/37159068/152728910-1e0eaef8-15ec-4c9c-9209-33afe093b398.png)
